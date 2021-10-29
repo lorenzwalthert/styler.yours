@@ -1,6 +1,6 @@
 Package: styler.putyourstyleguidehere
 Title: Third-party Style Guide For 'putyourstyleguidehere'
-Version: 0.0.4.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "putyourname",
            family = "putyourname",
