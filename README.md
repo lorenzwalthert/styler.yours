@@ -21,7 +21,7 @@ Here’s what you have to do once you created your repo from the template.
 -   In `create_style_guide()`, ensure the `style_guide_name` matches the
     expected format, e.g. styler has
     `"styler::tidyverse_style@https://github.com/r-lib"`. See
-    help(create\_style\_guide, package = “styler”)\` for details.
+    `help(create_style_guide, package = "styler")` for details.
 
 -   adapt the function `putyourstyleguidehere_style()` (the drop-in for
     `styler::tidyverse_style`) such that it does what you want.
