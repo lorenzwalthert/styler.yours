@@ -33,7 +33,8 @@ Here's what you have to do once you created your repo from the template.
   format, e.g. styler has `"styler::tidyverse_style@https://github.com/r-lib"`. 
   See help(create_style_guide, package = "styler")` for details.
 * adapt the function `putyourstyleguidehere_style()` (the drop-in for 
-  `styler::tidyverse_style`) such that it does what you want
+  `styler::tidyverse_style`) such that it does what you want. Currently, all 
+  the style guide is doing is to replace `<-` with `=`
 * add tests.
 * remove all of the above instructions.
 
