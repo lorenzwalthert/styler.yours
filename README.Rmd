@@ -27,7 +27,7 @@ Here's what you have to do once you created your repo from the template.
 
 * search for `putyourstyleguidehere_style` and replace it with the name
   of your style guide. 
-* search for `putyourname` and put your name / email.
+* Adapt the authors field in `DESCRIPTION`.
 
 * In `create_style_guide()`, ensure the `style_guide_name` matches the expected 
   format, e.g. styler has `"styler::tidyverse_style@https://github.com/r-lib"`. 
