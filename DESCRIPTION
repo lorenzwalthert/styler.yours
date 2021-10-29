@@ -2,10 +2,10 @@ Package: styler.putyourstyleguidehere
 Title: Third-party Style Guide For 'putyourstyleguidehere'
 Version: 0.0.1
 Authors@R: 
-    person(given = "putyourname",
-           family = "putyourname",
+    person(given = "Hand",
+           family = "Muster",
            role = c("aut", "cre"),
-           email = "putyourname")
+           email = "hans@muster.de")
 Description: styles code according to the putyourstyleguidehere using
     'styler'.
 License: MIT + file LICENSE

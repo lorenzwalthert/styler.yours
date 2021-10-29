@@ -3,14 +3,20 @@
 
 # styler.putyourstyleguidehere
 
-This is a GitHub template to create your own style guide.
+This is a GitHub template to create and distribute a custom {styler}
+style guide. For more info, see the [{styler}
+documentation](https://styler.r-lib.org/dev/articles/distribute_custom_style_guides.html).
+You can use this template to create a GitHub repo by pressing the green
+button:
 
-TODO:
+<img src="https://raw.githubusercontent.com/lorenzwalthert/some_raw_data/master/styler.yours.png" width="500" />
+
+Here’s what you have to do once you created your repo from the template.
 
 -   search for `putyourstyleguidehere_style` and replace it with the
     name of your style guide.
 
--   search for `putyourname` and put your name / email.
+-   Adapt the authors field in `DESCRIPTION`.
 
 -   In `create_style_guide()`, ensure the `style_guide_name` matches the
     expected format, e.g. styler has
@@ -18,12 +24,12 @@ TODO:
     help(create\_style\_guide, package = “styler”)\` for details.
 
 -   adapt the function `putyourstyleguidehere_style()` (the drop-in for
-    `styler::tidyverse_style`) such that it does what you want
+    `styler::tidyverse_style`) such that it does what you want.
+    Currently, all the style guide is doing is to replace `<-` with `=`
 
 -   add tests.
 
-For more info, see the [{styler}
-documentation](https://styler.r-lib.org/dev/articles/distribute_custom_style_guides.html).
+-   remove all of the above instructions.
 
 <!-- badges: start -->
 
