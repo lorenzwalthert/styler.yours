@@ -1,4 +1,4 @@
 library(testthat)
-library(styler.mlr)
+library(styler.putyourstyleguidehere)
 
-test_check("styler.mlr")
+test_check("styler.putyourstyleguidehere")
