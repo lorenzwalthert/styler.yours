@@ -26,7 +26,7 @@ putyourstyleguidehere_style <- function(scope = "tokens",
     list()
   }
 
-  use_raw_indention <- !("indention" %in% scope)
+  use_raw_indention <- !("indention" %in% scope) || length(indention_manipulators) < 1
 
   line_break_manipulators <- if ("line_breaks" %in% scope) {
     list()
