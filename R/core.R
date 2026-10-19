@@ -37,7 +37,6 @@ putyourstyleguidehere_style <- function(scope = "tokens",
   }
 
 
-
   create_style_guide(
     # transformer functions
     initialize = default_style_guide_attributes,
